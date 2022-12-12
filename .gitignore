@@ -1,4 +1,6 @@
+# Charm-specific
 .tox/
+.coverage
 *.snap
 *.resource
 *.charm
@@ -7,15 +9,20 @@
 *.srl
 *.csr
 *.v3.ext
-venv
+venv/
 out
-build
+build/
 tmp
 node_modules/
 **__pycache__
+*.py[cod]
 .env
 version
 charm-slurm*/version
 charm-slurm*/README.md
 charm-slurm*/icon.svg
 charm-slurm*/LICENSE
+
+# Editor-specific
+.idea
+.vscode
